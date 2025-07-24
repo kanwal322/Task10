@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Services</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">High Tech Software House</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="services">
+    <h1>Our Services</h1>
+    <div class="tab-buttons">
+      <button class="tab active" data-tab="web">Web Development</button>
+      <button class="tab" data-tab="mobile">Mobile Apps</button>
+      <button class="tab" data-tab="marketing">Digital Marketing</button>
+    </div>
+
+    <div class="tab-content">
+      <div class="tab-panel active" id="web">
+        <i class="fas fa-code service-icon"></i>
+        <h2>Web Development</h2>
+        <p>We build responsive, modern, and SEO-friendly websites using the latest technologies.</p>
+        <p>From personal portfolios to e-commerce solutions – we’ve got you covered.</p>
+        <a href="#" class="learn-btn">Learn More</a>
+      </div>
+      <div class="tab-panel" id="mobile">
+        <i class="fas fa-mobile-alt service-icon"></i>
+        <h2>Mobile Apps</h2>
+        <p>We develop high-performance mobile applications for Android and iOS platforms.</p>
+        <p>From idea to launch, we handle the full mobile app lifecycle.</p>
+        <a href="#" class="learn-btn">Learn More</a>
+      </div>
+      <div class="tab-panel" id="marketing">
+        <i class="fas fa-bullhorn service-icon"></i>
+        <h2>Digital Marketing</h2>
+        <p>Boost your online presence with our expert digital marketing strategies.</p>
+        <p>We specialize in SEO, PPC, and social media campaigns.</p>
+        <a href="#" class="learn-btn">Learn More</a>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
